@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+.header_1 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 70px;
+    background-color: #222;
+    text-align: center;
+}
+
+.logo {
+    width: 140px;
+    height: 50px;
+    padding-top: 10px;
+}
