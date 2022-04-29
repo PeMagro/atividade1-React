@@ -12,7 +12,46 @@ footer {
     background-color: #222;
 }
 
-footer img {
-    width: 50px;
+.redes img {
+    width: 40px;
+    height: 40px;
+}
+
+.redes {
+    position: relative;
+    float: left;
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.texto_footer, .site_spotify {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_footer p {
+    color: rgb(60, 163, 19);
+    font-size: 18px;
+}
+
+.texto_footer p:hover {
+    transition: 0.1s;
+    color: chartreuse;
+    border-bottom: 2px solid chartreuse;
+    padding-bottom: 1px;
+}
+
+.site_spotify img {
+    width: 140px;
     height: 50px;
 }

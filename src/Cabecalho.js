@@ -6,7 +6,7 @@ function Cabecalho() {
     return(
         <div className={styles}>
             <header>
-            <div className="header_1">
+            <div className="header_1" id="header">
             <a href="App.js"> <img src={logo} className="logo" alt="logo" /> </a>
             </div>
             <Menu />
